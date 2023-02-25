@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+
+body , .mybutoon>button{
+    font-family: Michroma , serif;
+    background: linear-gradient(90deg, #00009C 0%, #000000 100%);
+}
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(196, 191, 191);
+}
+.navbar-brand img{
+    width: 40px;
+    
+   
+}
+.myico:hover {
+    scale: 1.5;
+}
+.my:hover{
+    scale: 1.2;
+}
+.myico , .my{
+    transition: 1.5s;
+}
+
+.navbar-toggler{
+    background-color:rgb(196, 191, 191) ;
+}
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+}
+.videotxt{
+   
+    color: aquamarine;
+    z-index: 2;
+}
+
+.sidebar{
+    color: aquamarine;
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+}
+.card{
+    color: aquamarine;
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+}
+.mycar-text , .myfoot{
+    color: aquamarine ;
+    margin: auto auto;
+}@media(max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+.anim , .mybutoon{
+    color: aquamarine;
+    text-align: center;
+}
+.anim img{
+    animation: myAnim 1.5s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+footer{
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+}
+.mlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
